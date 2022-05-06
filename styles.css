@@ -1,0 +1,126 @@
+body{
+   margin: 0.05vw;
+}
+
+header{
+    position: relative;
+}
+.head_back{
+    position:absolute;
+    height: 17vw;
+    width: 100%;
+    top: 0vw;
+    background: linear-gradient(to right,darkred, brown, darkorange, orange, gold);
+    overflow: hidden;
+}
+
+
+.head{    
+    height: 17vw;
+    background: linear-gradient(to right,rgb(1, 1, 80), rgb(4, 106, 207),rgb(4, 4, 73));
+    clip-path: polygon(0 0, 100% 0, 100% 100%,  0 80%);
+}
+
+.hlogo{
+    position: absolute;
+    width: 10vw;
+    margin: 2vw;
+    top: -0.25;
+    filter: drop-shadow(0.2vw 0.2vw );
+    left: 1.5vw;
+}
+.address{
+    font-size: 3.5vw;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    left: 15.5vw;
+    top: 3vw;
+    font-family: "Dancing Script";
+    text-shadow: 0.25vw 0.25vw 0.25vw rgb(5, 5, 5);
+    /* transform: scaleY(1.2); */
+}
+.ar_address{
+    position: absolute;
+    padding-left: 1.5vw;
+    border-radius: 3vw;
+    text-align: left;
+    height: 3.25vw;
+    width: 30vw;
+    left: 18vw;
+    top: 1.5vw;
+    color: white;
+    font-weight: 800;
+    font-size: 2vw;
+    font-family:"Harmattan";
+    color: gold;
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
+}
+nav{
+    position: absolute;
+    top: 4vw;
+    height: 3vw;
+    z-index: 3;
+    width: 65vw;
+    right: -16vw;
+    /* background:linear-gradient(to right , rgb(43, 42, 42), transparent 120%); */
+   
+}
+.item{
+    line-height: 1.5;
+    height: 2.75vw;
+    width: max-content;
+    letter-spacing: 0.15vw;
+    font-size: 1.85vw;
+    font-family: "Courgette";
+    text-align:center;
+    display: inline-block;
+    color: white;
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
+    margin-right: 1.75vw;
+}
+
+.item:hover{
+color: gold;
+border-bottom: 0.4vw solid gold;
+ } 
+main{
+    position: relative;
+    height: 58vw;
+    width: 97vw;
+    top: -0.03vw;
+    background-image: url(images/intro.png);
+    background-size: 100% 100%;
+    /* opacity: 94%; */
+    border-radius: 0vw 0vw 0vw 0vw;
+    overflow: hidden;
+}
+
+.intro{
+    position: absolute;
+    width: 20vw;
+    height: 5vw;
+    background-color: gold;
+    top: 10vw;
+    right: 8vw; 
+    transition: 1s all;
+    border-radius: 3vw;
+    z-index: 2;
+    
+}
+
+.promote{
+    z-index: 3;
+    position: absolute;
+    width: 60vw;
+    height: 15vw;
+    right: -5vw;
+    text-align: center;
+    font-size: 2.5vw;
+    line-height: 1.15;  
+    overflow:hidden;
+    text-shadow: 0.1vw 0.1vw black;
+}
+a:any-link{
+    color: pink;
+}
